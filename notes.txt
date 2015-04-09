@@ -1,0 +1,21 @@
+3 v's of big data
+  volume (too big), velocity (too quick), variety (too variable)
+  
+map | shuffle | reduce
+
+data sources | ingestion | processing | use results
+
+kafka for ingestion (like flume)
+
+sqoop for getting SQL data in
+flume for text data in
+
+inputs and outputs must match.  code may compile, but will fail at runtime
+
+Ext.Error.raise
+console.log
+
+Zoll Data Systems
+Matt - 7203059818
+
+yarn jar /opt/mapr/hadoop/hadoop-2.4.1/share/hadoop/yarn/hadoop-yarn-\applications-distributedshell-2.4.1-mapr-1408.jar -shell_command \/bin/ls -shell_args /user/user01 -jar /opt/mapr/hadoop/hadoop-\2.4.1/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-\2.4.1-mapr-1408.jar
